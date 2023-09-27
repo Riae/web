@@ -48,6 +48,7 @@ html ::-webkit-scrollbar-track {
 .color-text {
     background-image: linear-gradient(to right, #00b47e, #00a2ff);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
