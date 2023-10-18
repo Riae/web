@@ -14,7 +14,8 @@ fetch(`https://api.lanyard.rest/v1/users/${discordID}`)
         document.getElementById("discord-status-highlight").style.color = "#f0b232";
       }
       else if (e.data.discord_status == "dnd") {
-        document.getElementById("discord-status-highlight").innerText = "on Do not disturb";
+        document.getElementById("discord-status-pre-highlight").innerText = "on ";
+        document.getElementById("discord-status-highlight").innerText = "Do not disturb";
         document.getElementById("discord-status-highlight").style.color = "#f23f43";
       }
       else if (e.data.discord_status == "offline") {
