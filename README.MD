@@ -1,3 +1,3 @@
 # 🌐 My website
 
-Visit it at [aymen.nl](https://aymen.nl)!
+Burn your eyes at [v1.aymen.nl](https://v1.aymen.nl)!
